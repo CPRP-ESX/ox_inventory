@@ -612,4 +612,12 @@ return {
 		close = true,
 		description = nil
 	},
+
+	['moneywashcard'] = {
+		label = 'Laundromat Card',
+		weight = 1,
+		stack = false,
+		close = true,
+		description = "This card will help you wash your... laundry."
+	},
 }
