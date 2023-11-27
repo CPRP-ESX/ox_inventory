@@ -129,10 +129,10 @@ return {
 		}
 	},
 
-	['lockpick'] = {
-		label = 'Lockpick',
-		weight = 160,
-	},
+	-- ['lockpick'] = {
+	-- 	label = 'Lockpick',
+	-- 	weight = 160,
+	-- },
 
 	['phone'] = {
 		label = 'Phone',
@@ -214,5 +214,402 @@ return {
 	['scrapmetal'] = {
 		label = 'Scrap Metal',
 		weight = 80,
+	},
+
+	["alive_chicken"] = {
+		label = "Living chicken",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["blood_0n"] = {
+		label = "Blood 0-",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["blood_0p"] = {
+		label = "Blood 0+",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["blood_abn"] = {
+		label = "Blood AB-",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["blood_abp"] = {
+		label = "Blood AB+",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["blood_an"] = {
+		label = "Blood A-",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["blood_ap"] = {
+		label = "Blood A+",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["blood_bn"] = {
+		label = "Blood B+",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["blood_bp"] = {
+		label = "Blood B+",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["blood_empty"] = {
+		label = "Empty Bloodpack",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["blood_test"] = {
+		label = "Blood tester",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["blowpipe"] = {
+		label = "Blowtorch",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["bread"] = {
+		label = "Bread",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["cannabis"] = {
+		label = "Cannabis",
+		weight = 3,
+		stack = true,
+		close = true,
+	},
+
+	["carokit"] = {
+		label = "Body Kit",
+		weight = 3,
+		stack = true,
+		close = true,
+	},
+
+	["carotool"] = {
+		label = "Tools",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["clothe"] = {
+		label = "Cloth",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["copper"] = {
+		label = "Copper",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["cutted_wood"] = {
+		label = "Cut wood",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["diamond"] = {
+		label = "Diamond",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["essence"] = {
+		label = "Gas",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fabric"] = {
+		label = "Fabric",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fish"] = {
+		label = "Fish",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fixkit"] = {
+		label = "Repair Kit",
+		weight = 3,
+		stack = true,
+		close = true,
+	},
+
+	["fixtool"] = {
+		label = "Repair Tools",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["gazbottle"] = {
+		label = "Gas Bottle",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["gold"] = {
+		label = "Gold",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["hacking_laptop"] = {
+		label = "Hacking Laptop",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["iron"] = {
+		label = "Iron",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["marijuana"] = {
+		label = "Marijuana",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["medikit"] = {
+		label = "Medikit",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["packaged_chicken"] = {
+		label = "Chicken fillet",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["packaged_plank"] = {
+		label = "Packaged wood",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["petrol"] = {
+		label = "Oil",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["petrol_raffin"] = {
+		label = "Processed oil",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["slaughtered_chicken"] = {
+		label = "Slaughtered chicken",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["stone"] = {
+		label = "Stone",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["syringe"] = {
+		label = "Syringe",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["washed_stone"] = {
+		label = "Washed stone",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["wood"] = {
+		label = "Wood",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["wool"] = {
+		label = "Wool",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	['medicalbag'] = {
+		label = 'Medical Bag',
+		weight = 220,
+		stack = true,
+		description = "A comprehensive medical kit for treating injuries and ailments.",
+	},
+	
+	['bandage'] = {
+		label = 'Bandage',
+		weight = 100,
+		stack = true,
+		description = "A simple bandage used to cover and protect wounds.",
+	},
+	
+	['defibrillator'] = {
+		label = 'Defibrillator',
+		weight = 100,
+		stack = true,
+		description = "Used for reviving patients.",
+	},
+	
+	['tweezers'] = {
+		label = 'Tweezers',
+		weight = 100,
+		stack = true,
+		description = "Precision tweezers for safely removing foreign objects, such as bullets, from wounds.",
+	},
+	
+	['burncream'] = {
+		label = 'Burn Cream',
+		weight = 100,
+		stack = true,
+		description = "Specialized cream for treating and soothing minor burns and skin irritations.",
+	},
+	
+	['suturekit'] = {
+		label = 'Suture Kit',
+		weight = 100,
+		stack = true,
+		description = "A kit containing surgical tools and materials for stitching and closing wounds.",
+	},
+	
+	['icepack'] = {
+		label = 'Ice Pack',
+		weight = 200,
+		stack = true,
+		description = "An ice pack used to reduce swelling and provide relief from pain and inflammation.",
+	},
+	
+	['stretcher'] = {
+		label = 'Ice Pack',
+		weight = 200,
+		stack = true,
+		description = "An ice pack used to reduce swelling and provide relief from pain and inflammation.",
+	},
+	
+	['emstablet'] = {
+		label = 'Ems tablet',
+		weight = 200,
+		stack = true,
+		client = {
+			export = 'ars_ambulancejob.openDistressCalls'
+		}
+	},
+
+	['handcuffs'] = {		
+		label = 'handcuffs',
+		weight = 1,
+	},
+
+	['lockpick'] = {
+		label = 'Lockpick',
+		weight = 160,
+		client = {
+		export = 'ars_policejob.breakCuffs'
+		}
+	},
+
+	['wood'] = {
+		label = 'Wood',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+	
+	['metal'] = {
+		label = 'Metal',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+	
+	['rope'] = {
+		label = 'Rope',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+	
+	['shovel'] = {
+		label = 'Shovel',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
 	},
 }
